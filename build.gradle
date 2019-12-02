@@ -1,6 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.1.7.RELEASE'
-    id "io.freefair.lombok" version "3.6.6"
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
 //    id 'war'
     id 'java'
 }
@@ -106,4 +105,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    compileOnly 'org.projectlombok:lombok:1.18.6'
+    annotationProcessor 'org.projectlombok:lombok:1.18.6'
 }
